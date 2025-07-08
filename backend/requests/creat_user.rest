@@ -1,0 +1,9 @@
+# POST http://localhost:3001/api/users
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+    "username": "root33",
+    "name": "root33",
+    "password": "root33"
+}

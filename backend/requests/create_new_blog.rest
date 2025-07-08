@@ -1,0 +1,10 @@
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+Authorization: Bearer 111
+
+{
+  "title": "New Blog",
+  "author": "John Doe",
+  "url": "https://example.com",
+  "likes": 0
+}
